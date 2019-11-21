@@ -1,0 +1,17 @@
+npx create-react-app magic-hat
+
+npm install electron electron-builder wait-on concurrently --dev
+
+npm install electron-is-dev
+
+
+npm install
+
+npm run electron-dev
+
+
+npm install axios
+npm install --save reactstrap react react-dom
+npm install --save react-toastify
+
+npm i express multer cors nodemon --save

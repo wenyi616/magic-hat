@@ -13,5 +13,7 @@ npm run electron-dev
 npm install axios
 npm install --save reactstrap react react-dom
 npm install --save react-toastify
+npm install react-bootstrap bootstrap
+
 
 npm i express multer cors nodemon --save

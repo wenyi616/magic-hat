@@ -3,11 +3,15 @@ var app = express();
 var multer = require('multer')
 var cors = require('cors');
 app.use(cors())
+
+// save user inputs in the folder
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, 'public')
+      cb(null, 'public/user-input')
     },
+    
     filename: function (req, file, cb) {
+      // cb(null, Date.now() + '-' +file.originalname )
       cb(null, Date.now() + '-' +file.originalname )
     }
   })
